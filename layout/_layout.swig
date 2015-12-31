@@ -82,7 +82,7 @@
 
   {% include '_scripts/mathjax.swig' %}
   {% block comment_system %}{% endblock %}
-  {% include '_scripts/baidushare.swig' %}
+  {# {% include '_scripts/baidushare.swig' %} #}
 
   {# LazyLoad #}
   <script type="text/javascript" src="{{ url_for(theme.js) }}/lazyload.js"></script>

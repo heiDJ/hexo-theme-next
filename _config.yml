@@ -68,8 +68,8 @@ use_font_lato: true
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
+duoshuo_info: # give up duoshuo
+  ua_enable: false
   admin_enable: false
   user_id: 0
 
@@ -78,14 +78,12 @@ duoshuo_info:
 jiathis: false
 
 # duoshuo share
-duoshuo_share: true
+duoshuo_share: false # give up duoshuo
+# duoshuo hot artical
+duoshuo_hotartical: false # give up duoshuo
 
 # baidu share
-baidushare: false
-
-# duoshuo hot artical
-duoshuo_hotartical: true
-
+baidu_share: true
 
 ## DO NOT EDIT THE FOLLOWING SETTINGS
 ## UNLESS YOU KNOW WHAT YOU ARE DOING
