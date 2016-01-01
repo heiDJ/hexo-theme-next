@@ -1,25 +1,25 @@
 // demo : https://developer.mozilla.org/en-US/demos/detail/css-tricks/launch;
 	
 #idhyt-surprise-ball {
+ +mobile() {
+    display: none;
+  }
 	width: 100%;
-	height: 100%;
+	height: 100px;
 	margin: 0;
-	}
+}
 
 #idhyt-surprise-ball-animation {
+ +mobile() {
+    display: none;
+  }
 	width: 320px;
-	margin:0 auto;
 	position: absolute;
-	top: 0px;
-	right: 120px;
-	}
-
-#idhyt-surprise-ball #idhyt-surprise-ball-animation span {
-	color: rgb(51, 51, 51);
-	font-family: georgia;
-	font-size: 14px;
-	}
-	
+	top: 50px;
+	left: 40%;
+	margin:0 auto;
+}
+		
 #idhyt-surprise-ball #idhyt-surprise-ball-animation .drag {
 	text-shadow: white 0px 1px 0px;
 	font-variant: small-caps;
@@ -28,19 +28,19 @@
 	color: rgb(51, 51, 51);
 	font-family: georgia;
 	font-size: 14px;
-	}
+}
 	
 #idhyt-surprise-ball #idhyt-surprise-ball-animation .ball {
-	opacity: 0.7;
+	opacity: 0.6;
 	background:rgb(255, 0, 0);
 	width: 16px;
 	height: 16px;
 	border-radius: 12px;
-	z-index:40;
+	z-index: auto;
 	color: rgb(255, 0, 0);
 	text-shadow: 0 0 0 rgb(255, 0, 0);
 	text-align: center;
-	}
+}
 	
 #layer12Go:after{
 	-webkit-box-shadow: 1px 4px 49px #000;
