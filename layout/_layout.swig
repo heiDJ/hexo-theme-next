@@ -17,6 +17,12 @@
       <div class="header-inner"> {%- include '_partials/header.swig' %} </div>
     </header>
 
+    {% if (theme.suprise.ball_enable) %}
+      {% if (is_home() and not isMobile()) %}
+        {% include '_partials/suprise/ball.swig' %}
+      {% endif %}
+    {% endif %}
+
     <main id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content"> {% block content %}{% endblock %} </div>
